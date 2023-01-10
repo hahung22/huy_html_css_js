@@ -1,0 +1,700 @@
+.statistic-container {
+    width: 100%;
+    margin: auto auto;
+}
+.font-weight-normal {
+    font-weight: normal;
+}
+.btn-medium {
+    height: 69px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+.card-header {
+    font-size: 36px;
+}
+.background-fullwidth {
+    background-color: #fcc302;
+    box-shadow: 0 0 0 100vmax #fcc302;
+    clip-path: inset(0 -100vmax);
+    color: #ffffff;
+}
+
+header {
+    height: 121px;
+    background-color: #daac00;
+    box-shadow: 0 0 0 100vmax #daac00;
+    clip-path: inset(0 -100vmax);
+}
+header .logo {
+    height: 100%;
+}
+header .logo img {
+    width: 100%;
+    height: 50%;
+}
+header .menu {
+    height: 100%;
+}
+header .menu .menu-item {
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+header .menu .menu-item a {
+    font-family: Poppins;
+    color: #ffffff;
+    font-size: 1.5em;
+    height: 100%;
+}
+header .menu,
+header .menu .menu-item a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header .menu .menu-item a:hover {
+    color: #000000;
+    background-color: #00bec9;
+}
+
+header .search-name {
+    height: 100%;
+}
+header .search-name form {
+    width: 100%;
+    height: 100%;
+}
+header .search-name .input-search {
+    width: 70%;
+    float: left;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+header .search-name .input-search input {
+    background-color: #fcc302;
+    border: none;
+    width: 100%;
+    height: 50px;
+}
+header .search-name .input-search input::placeholder {
+    color: #ffffff;
+    font-size: 18px;
+    padding-left: 10px;
+}
+header .search-name .button-search {
+    float: left;
+    width: 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+header .search-name .button-search button {
+    background-color: #00bec9;
+    color: #ffffff;
+    border: none;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+}
+
+/* all section */
+.section {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* introduction - section 1 */
+.section-introduction {
+    height: 779px;
+}
+.section-introduction .content-text {
+    height: 100%;
+    padding-top: 170px;
+    padding-bottom: 170px;
+}
+.section-introduction .content-text .title {
+    height: calc(100% / 3);
+    font-size: 36px;
+}
+.section-introduction .content-text .subtitle {
+    height: calc(100% / 3);
+    font-size: 22px;
+    margin-top: 30px;
+}
+.section-introduction .content-text .introduction {
+    height: calc(100% / 3);
+    margin-top: 50px;
+}
+.section-introduction .content-text .introduction .contact-us {
+    background-color: #00bec9;
+    border: 1px solid #00bec9;
+}
+.section-introduction .content-text .introduction .our-service {
+    margin-left: 36px;
+    border: 3px solid #ffffff;
+}
+.section-introduction .content-text .introduction .contact-us a,
+.section-introduction .content-text .introduction .our-service a {
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-introduction .content-text .introduction .contact-us h3,
+.section-introduction .content-text .introduction .our-service h3 {
+    font-weight: normal;
+}
+.section-introduction .content-text .introduction .contact-us a:hover,
+.section-introduction .content-text .introduction .our-service a:hover {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.section-introduction .content-image {
+    height: 100%;
+    padding-top: 100px;
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-introduction .content-image img {
+    height: 100%;
+    animation: translate 3s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes translate {
+    0% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(20px, 50px);
+    }
+}
+
+/* veterinary - section 2 */
+.section-veterinary {
+    height: 779px;
+    background-color: #ffffff;
+}
+.section-veterinary .content-text {
+    height: 100%;
+    padding-top: 192px;
+    padding-bottom: 192px;
+}
+.section-veterinary .content-text .title {
+    height: calc(100% / 3);
+    font-size: 30px;
+}
+.section-veterinary .content-text .subtitle {
+    height: calc(100% / 3);
+    font-size: 22px;
+    margin-top: 30px;
+}
+.section-veterinary .content-text .introduction {
+    height: calc(100% / 3);
+    color: #fcc302;
+    margin-top: 40px;
+}
+.section-veterinary .content-text .introduction .our-service {
+    background-color: #fcc302;
+}
+.section-veterinary .content-text .introduction .our-service a {
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-veterinary .content-text .introduction .our-service h3 {
+    font-weight: normal;
+}
+.section-veterinary .content-text .introduction .our-service a:hover {
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.section-veterinary .content-image {
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    position: relative;
+}
+.section-veterinary .content-image .first-square,
+.section-veterinary .content-image .second-square,
+.section-veterinary .content-image .third-square,
+.section-veterinary .content-image .forth-square,
+.section-veterinary .content-image .circle,
+.section-veterinary .content-image .triangle {
+    position: absolute;
+    width: 506px;
+    height: 480px;
+}
+.section-veterinary .content-image .first-square {
+    width: 252px;
+    height: 206px;
+    background-color: #fcc302;
+    z-index: 1;
+    left: -30px;
+    bottom: 120px;
+}
+.section-veterinary .content-image .second-square {
+    background-color: #daac00;
+    z-index: 2;
+}
+.section-veterinary .content-image .third-square {
+    z-index: 3;
+}
+.section-veterinary .content-image .forth-square {
+    background-color: #daac00;
+    opacity: 0.5;
+    z-index: 4;
+}
+.section-veterinary .content-image .circle {
+    width: 84px;
+    height: 84px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    z-index: 5;
+    animation: scale-up-circle 3s linear infinite;
+}
+@keyframes scale-up-circle {
+    from {
+        transform: scale(2);
+    }
+}
+.section-veterinary .content-image .triangle {
+    z-index: 6;
+    width: 0;
+    height: 0;
+    border-top: 24px solid transparent;
+    border-bottom: 24px solid transparent;
+    border-left: 24px solid #daac00;
+}
+
+/* prepare for section using grid layout */
+.section-vaccination,
+.section-sell-dog,
+.section-doctor-infor,
+.section-recent-post {
+    height: 1017px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section-vaccination .title,
+.section-sell-dog .title,
+.section-doctor-infor .title,
+.section-recent-post .title {
+    height: 10%;
+    font-size: 2.5rem;
+}
+
+.section-vaccination .subtitle,
+.section-sell-dog .subtitle,
+.section-doctor-infor .subtitle,
+.section-recent-post .subtitle {
+    height: 10%;
+    font-size: 22px;
+    margin-top: 10px;
+    text-align: center;
+}
+.section-vaccination .title,
+.section-vaccination .subtitle,
+.section-sell-dog .title,
+.section-sell-dog .subtitle,
+.section-doctor-infor .title,
+.section-doctor-infor .subtitle,
+.section-recent-post .title,
+.section-recent-post .subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-vaccination .content,
+.section-sell-dog .content,
+.section-doctor-infor .content,
+.section-recent-post .content {
+    height: 80%;
+    margin-top: 50px;
+}
+.section-vaccination .content article,
+.section-sell-dog .content article,
+.section-doctor-infor .content article,
+.section-recent-post .content article {
+    width: 100%;
+    height: 100%;
+}
+.section-vaccination .content article .image,
+.section-sell-dog .content article .image,
+.section-doctor-infor .content article .image,
+.section-recent-post .content article .image {
+    width: 100%;
+    height: 60%;
+}
+.section-vaccination .content article .image img,
+.section-sell-dog .content article .image img,
+.section-doctor-infor .content article .image img,
+.section-recent-post .content article .image img {
+    width: 100%;
+    height: 100%;
+}
+.section-vaccination .content article .title,
+.section-sell-dog .content article .title,
+.section-doctor-infor .content article .title,
+.section-recent-post .content article .title {
+    height: 15%;
+    font-size: 1.5rem;
+}
+.section-vaccination .content article .subtitle,
+.section-sell-dog .content article .subtitle,
+.section-doctor-infor .content article .subtitle,
+.section-recent-post .content article .subtitle {
+    height: 10%;
+    text-align: center;
+}
+
+/* vaccination - section 3 */
+.section-vaccination .content article .title {
+    margin-top: 30px;
+}
+
+/* veterinary-rotate - section 4 */
+.section-veterinary-rotate {
+    height: 779px;
+}
+.section-veterinary-rotate .content-image {
+    height: 100%;
+    padding-top: 140px;
+    padding-bottom: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    position: relative;
+}
+.section-veterinary-rotate .content-image .first-square,
+.section-veterinary-rotate .content-image .second-square,
+.section-veterinary-rotate .content-image .third-square,
+.section-veterinary-rotate .content-image .forth-square,
+.section-veterinary-rotate .content-image .circle {
+    position: absolute;
+    width: 506px;
+    height: 480px;
+}
+.section-veterinary-rotate .content-image .first-square {
+    width: 252px;
+    height: 206px;
+    background-color: #fcc302;
+    z-index: 1;
+    right: 20px;
+    bottom: 120px;
+}
+.section-veterinary-rotate .content-image .second-square {
+    background-color: #daac00;
+    z-index: 2;
+}
+
+.section-veterinary-rotate .content-image .third-square {
+    z-index: 3;
+}
+.section-veterinary-rotate .content-image .forth-square {
+    background-color: #daac00;
+    opacity: 0.5;
+    z-index: 4;
+}
+.section-veterinary-rotate .content-image .circle {
+    width: 84px;
+    height: 84px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    z-index: 5;
+    animation: circle-scale 3s linear infinite;
+}
+@keyframes circle-scale {
+    to {
+        transform: scale(2);
+    }
+}
+.section-veterinary-rotate .content-image .triangle {
+    position: absolute;
+    z-index: 6;
+    width: 0;
+    height: 0;
+    border-top: 24px solid transparent;
+    border-bottom: 24px solid transparent;
+    border-left: 24px solid #daac00;
+}
+
+.section-veterinary-rotate .content-text {
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    float: left;
+    background-color: #ffffff;
+}
+.section-veterinary-rotate .content-text .title {
+    height: calc(100% / 3);
+    font-size: 30px;
+    text-align: right;
+    margin-top: 90px;
+}
+.section-veterinary-rotate .content-text .subtitle {
+    height: calc(100% / 3);
+    font-size: 20px;
+    text-align: right;
+    margin-top: 50px;
+}
+.section-veterinary-rotate .content-text .introduction {
+    height: calc(100% / 3);
+    color: #fcc302;
+    margin-top: 50px;
+}
+.section-veterinary-rotate .content-text .introduction .our-service {
+    height: 69px;
+    font-size: 22px;
+    font-weight: 500;
+    background-color: #fcc302;
+    border-radius: 10px;
+}
+.section-veterinary-rotate .content-text .introduction .our-service a {
+    color: #ffffff;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-veterinary-rotate .content-text .introduction .our-service a:hover {
+    background-color: blue;
+    border: 6px solid #ffffff;
+    border-radius: 10px;
+}
+
+/* sell-dog - section 5 */
+.section-sell-dog .content article .title {
+    margin-top: 40px;
+}
+.section-sell-dog .content article .title .price {
+    text-decoration: line-through;
+    margin-right: 20px;
+}
+.section-sell-dog .content article .title .price,
+.section-sell-dog .content article .title p {
+    font-size: 36px;
+}
+.section-sell-dog .content article .title h1 {
+    font-size: 42px;
+}
+.section-sell-dog .content article .subtitle {
+    height: 10%;
+    text-align: center;
+}
+.section-sell-dog .content article .subtitle a {
+    color: #ffffff;
+    width: 50%;
+    height: 60px;
+    display: block;
+    background-color: #00bec9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    margin-top: 40px;
+}
+.section-sell-dog .content article .subtitle a:hover {
+    background-color: #000000;
+}
+
+/* doctor-infor - section 6 */
+.section-doctor-infor {
+    background-color: #ffffff;
+}
+.section-doctor-infor .content article .title {
+    margin-top: 30px;
+}
+.section-doctor-infor .subtitle {
+    margin-bottom: 30px;
+}
+.section-doctor-infor .content article .socialite {
+    height: 20%;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 20px;
+}
+.section-doctor-infor .content article .socialite i {
+    color: #ffffff;
+    background-color: #daac00;
+    border: 8px solid #daac00;
+    border-radius: 50%;
+}
+
+/* statistic - section 7 */
+.statistic {
+    width: 100%;
+}
+.section-statistic {
+    width: 100%;
+    height: 575px;
+    position: relative;
+}
+.section-statistic .sub-background-1,
+.section-statistic .sub-background-2,
+.section-statistic .container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.section-statistic .sub-background-1 {
+    background-image: url("../images/background_1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.section-statistic .sub-background-2 {
+    background-color: #daac00;
+    opacity: 0.8;
+    top: 0;
+    z-index: 2;
+}
+.section-statistic .container {
+    padding: 100px 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 192px;
+    top: 0;
+    z-index: 3;
+}
+.section-statistic .container article {
+    width: 100%;
+    height: 50%;
+    font-size: 2rem;
+    color: #ffffff;
+    padding: auto;
+}
+.section-statistic .container article .icon,
+.section-statistic .container article .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-statistic .container article .icon {
+    font-size: 84px;
+}
+.section-statistic .container article .content {
+    font-size: 36px;
+    text-align: center;
+}
+
+/* recent-post - section 8 */
+.section-recent-post {
+    background-color: #ffffff;
+}
+.section-recent-post .content article .post-date {
+    height: 4%;
+    color: #00bec9;
+    font-size: 20px;
+}
+.section-recent-post .content article .subtitle {
+    height: 20%;
+    font-size: 16px;
+    text-align: left;
+}
+.section-recent-post .content article .readmore {
+    height: 2%;
+}
+.section-recent-post .content article .readmore a {
+    display: block;
+    color: #00bec9;
+    font-size: 24px;
+}
+
+/* footer */
+footer {
+    height: 654px;
+    background-color: #343434;
+    box-shadow: 0 0 0 100vmax #343434;
+    clip-path: inset(0 -100vmax);
+    color: #ffffff;
+    padding-top: 192px;
+    padding-bottom: 192px;
+}
+
+footer .about {
+    height: 100%;
+    float: left;
+}
+footer .services {
+    height: 100%;
+}
+footer .about .nav-about-company .menu .menu-item,
+footer .services .nav-service-company .menu .menu-item {
+    margin-top: 10px;
+}
+footer h1 {
+    font-size: 48px;
+}
+footer .about a,
+footer .services a {
+    color: #ffffff;
+    font-size: 24px;
+}
+footer .socialite {
+    text-align: right;
+}
+footer .socialite .form-feedback {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+footer .socialite p {
+    font-size: 24px;
+    margin-top: 32px;
+}
+footer .socialite .form-feedback {
+    width: 100%;
+    height: 30%;
+    margin-top: 32px;
+}
+footer .socialite .form-feedback .input-feedback,
+footer .socialite .form-feedback .btn-send {
+    float: left;
+}
+footer .socialite form input[name="feedback"] {
+    font-size: 48px;
+    width: 320px;
+    background-color: #daac00;
+    float: left;
+    border: none;
+}
+footer .socialite form button[name="btn-submit"] {
+    font-size: 48px;
+    width: 100px;
+    background-color: #00bec9;
+    float: left;
+    color: #ffffff;
+    border: none;
+}
+footer .socialite form button i {
+    font-size: 44px;
+}
+footer .socialite .icon {
+    width: 100%;
+    margin-top: 30px;
+}
+footer .socialite .icon i {
+    font-size: 48px;
+    margin-left: 10px;
+}
