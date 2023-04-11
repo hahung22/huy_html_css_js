@@ -1,0 +1,464 @@
+@media (max-width: 739px) {
+    header .search-name {
+        display: none;
+    }
+
+    /* section-introduction */
+    .section-introduction,
+    .section-veterinary {
+        height: 200%;
+    }
+    .section-introduction .content-text .title {
+        font-size: 28px;
+    }
+    .section-introduction .content-text .subtitle {
+        font-size: 20px;
+    }
+    .section-introduction .content-text .introduction .our-service {
+        margin-left: 0;
+    }
+    .section-introduction .content-text,
+    .section-veterinary-rotate .content-text,
+    .section-vaccination .content-text {
+        height: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .menu-bar {
+        font-size: 50px;
+        color: #ffffff;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+    .section-introduction .content-image {
+        padding-left: 0;
+        padding-top: 0;
+    }
+    .section-introduction .content-image img {
+        width: 300px;
+    }
+
+    /* section-vaccination */
+    .section-vaccination {
+        height: 500%;
+        margin-top: 250px;
+    }
+    .section-veterinary .content-image .first-square {
+        left: 65px;
+        bottom: -170px;
+    }
+    .section-veterinary-rotate .content-image .first-square {
+        right: 81px;
+    }
+    .section-veterinary .content-text {
+        padding-top: 50px;
+    }
+    .section-vaccination .content article .subtitle {
+        padding-bottom: 40px;
+    }
+
+    /* section-sell-dog */
+    .section-sell-dog {
+        height: 400%;
+    }
+    .section-sell-dog .title,
+    .section-vaccination .title,
+    .section-veterinary-rotate .content-text .title,
+    .section-doctor-infor .title {
+        font-size: 1.8rem;
+    }
+    .section-doctor-infor .subtitle,
+    .section-vaccination .subtitle,
+    .section-sell-dog .subtitle {
+        font-size: 16px;
+    }
+    .section-sell-dog .content article .subtitle a {
+        margin-top: 16px;
+        margin-bottom: 50px;
+        font-size: 22px;
+    }
+
+    .section-veterinary .content-text .title {
+        font-size: 24px;
+    }
+    .section-veterinary .content-text {
+        padding-bottom: 100px;
+    }
+    .section-veterinary .content-image {
+        padding-bottom: 0px;
+    }
+    .section-veterinary-rotate .content-image .second-square,
+    .section-veterinary .content-image .second-square,
+    .section-veterinary-rotate .content-image .third-square,
+    .section-veterinary-rotate .content-image .third-square img,
+    .section-veterinary .content-image .third-square,
+    .section-veterinary .content-image .third-square img,
+    .section-veterinary-rotate .content-image .forth-square,
+    .section-veterinary .content-image .forth-square {
+        width: 280px;
+        height: 250px;
+    }
+
+    .section-veterinary-rotate .content-image .circle,
+    .section-veterinary .content-image .circle {
+        width: 28px;
+        height: 28px;
+    }
+    .section-veterinary .content-image .first-square {
+        left: 130px;
+    }
+    .section-veterinary-rotate .content-image .first-square {
+        right: 20px;
+    }
+    .section-veterinary .content-image .first-square,
+    .section-veterinary-rotate .content-image .first-square {
+        width: 200px;
+        height: 150px;
+        bottom: -150px;
+    }
+    .section-veterinary-rotate .content-image .first-square {
+        bottom: -20px;
+        right: 0;
+    }
+
+    /* section-veterinary-rotate */
+    .section-veterinary-rotate {
+        height: 300%;
+    }
+    .section-veterinary-rotate .content-image {
+        margin-top: 100px;
+    }
+    .section-veterinary-rotate .content-text .title {
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .section-veterinary-rotate .content-text .subtitle {
+        font-size: 16px;
+    }
+
+    /* section-doctor-infor */
+    .section-doctor-infor {
+        height: 550%;
+    }
+    .section-doctor-infor .content article .socialite {
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+
+    /* statistic */
+    .section-statistic .container {
+        grid-template-columns: repeat(1, 1fr);
+        grid-row-gap: 0;
+    }
+    .section-statistic .sub-background-1,
+    .section-statistic .sub-background-2,
+    .section-statistic .container {
+        height: 200%;
+    }
+
+    /* section-recent-post */
+    .section-recent-post {
+        height: 600%;
+        margin-top: 550px;
+    }
+    .section-recent-post .content {
+        height: 80%;
+    }
+    .section-recent-post .title {
+        font-size: 2em;
+    }
+    .section-recent-post .subtitle {
+        font-size: 18px;
+    }
+    .section-recent-post .content article .subtitle {
+        font-size: 20px;
+    }
+    .section-recent-post .content article .readmore {
+        margin-bottom: 30px;
+    }
+    .section-recent-post .content article .title {
+        margin-bottom: 16px;
+    }
+
+    footer {
+        height: 200%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    footer .socialite {
+        margin-top: 28px;
+    }
+    footer .about,
+    footer .services {
+        height: 80%;
+    }
+    footer h1 {
+        font-size: 36px;
+        text-align: center;
+    }
+    footer .about .nav-about-company .menu .menu-item,
+    footer .socialite,
+    footer .services .nav-service-company .menu .menu-item {
+        text-align: center;
+    }
+    footer .socialite form input[name="feedback"] {
+        width: 265px;
+    }
+    footer .socialite form button[name="btn-submit"] {
+        width: 55px;
+    }
+}
+
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .wide {
+        width: 644px;
+    }
+
+    header .menu .menu-item a {
+        font-size: 18px;
+    }
+    header .search-name .input-search input::placeholder {
+        font-size: 18px;
+    }
+
+    /* section-introduction */
+    .section-introduction .content-text {
+        height: 40%;
+        padding-top: 50px;
+    }
+    .section-introduction .content-text .title,
+    .section-vaccination .title,
+    .section-veterinary-rotate .content-text .title,
+    .section-sell-dog .title,
+    .section-doctor-infor .title,
+    .section-recent-post .title,
+    .section-veterinary .content-text .title {
+        font-size: 24px;
+        text-align: center;
+    }
+    .section-introduction .content-text .subtitle,
+    .section-vaccination .subtitle,
+    .section-veterinary-rotate .content-text .subtitle,
+    .section-sell-dog .subtitle,
+    .section-doctor-infor .subtitle,
+    .section-recent-post .subtitle,
+    .section-veterinary .content-text .subtitle {
+        font-size: 18px;
+        text-align: justify;
+    }
+    .section-introduction .content-image {
+        margin-top: -180px;
+        padding-left: 0;
+    }
+    .section-introduction .content-image img {
+        height: 50%;
+    }
+
+    /* section-veterinary */
+    .section-veterinary .content-image .first-square,
+    .section-veterinary .content-image .second-square,
+    .section-veterinary .content-image .third-square,
+    .section-veterinary .content-image .third-square img,
+    .section-veterinary .content-image .forth-square,
+    .section-veterinary-rotate .content-image .first-square,
+    .section-veterinary-rotate .content-image .second-square,
+    .section-veterinary-rotate .content-image .third-square,
+    .section-veterinary-rotate .content-image .third-square img,
+    .section-veterinary-rotate .content-image .forth-square {
+        width: 306px;
+        height: 280px;
+    }
+    .section-veterinary .content-image .circle {
+        width: 38px;
+        height: 38px;
+    }
+    .section-veterinary .content-image .triangle {
+        width: 16px;
+        height: 16px;
+    }
+    .section-veterinary .content-text {
+        height: 40%;
+        padding-top: 50px;
+    }
+    .section-veterinary .content-image {
+        height: 200px;
+        margin-left: 0;
+    }
+    .section-veterinary .content-image img {
+        height: 50%;
+    }
+    .section-veterinary .content-image .first-square {
+        width: 150px;
+        height: 150px;
+        left: 150px;
+        bottom: -70px;
+    }
+
+    /* section-vaccination */
+    .section-vaccination,
+    .section-doctor-infor,
+    .section-veterinary-rotate,
+    .section-recent-post,
+    .section-sell-dog {
+        height: 200%;
+        padding-top: 50px;
+    }
+    .card-header {
+        font-size: 22px;
+    }
+    .section-vaccination .subtitle {
+        font-size: 15px;
+    }
+    .section-vaccination .content article .subtitle h2,
+    .section-veterinary-rotate .content-text .subtitle h2 {
+        font-size: 22px;
+    }
+    .section-vaccination .content article,
+    .section-doctor-infor .content article,
+    .section-recent-post .content article,
+    .section-sell-dog .content article {
+        margin-top: 30px;
+    }
+    .section-vaccination .content article .subtitle h3 {
+        font-size: 19px;
+    }
+
+    /* section-veterinary-rotate */
+    .section-veterinary-rotate .content-image {
+        margin-top: 50px;
+    }
+    .section-veterinary-rotate .content-text {
+        padding-top: 50px;
+    }
+    .section-veterinary-rotate .content-image .first-square {
+        width: 150px;
+        height: 150px;
+        right: 155px;
+        bottom: -20px;
+    }
+
+    /* section-sell-dog */
+    .section-sell-dog .content article .subtitle {
+        margin-top: -20px;
+    }
+    .section-sell-dog .content article .title,
+    .section-doctor-infor .content article .title,
+    .section-recent-post .content article .title {
+        margin-top: 20px;
+    }
+
+    /* section-doctor-infor */
+    .section-vaccination .subtitle,
+    .section-sell-dog .subtitle,
+    .section-doctor-infor .subtitle {
+        margin-bottom: -20px;
+    }
+
+    /* section-statistic */
+    .section-statistic .container article .icon {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+    }
+    .section-statistic .container article .content h3 {
+        font-size: 28px;
+    }
+    .section-statistic .container article {
+        font-size: 28px;
+        margin-top: 50px;
+    }
+
+    /* section-recent-post */
+    .section-recent-post .content article .title h1 {
+        font-size: 22px;
+        text-align: left;
+    }
+
+    .section-doctor-infor .content article .socialite {
+        margin-top: 35px;
+    }
+    .section-recent-post .content article .readmore a {
+        margin-top: 5px;
+    }
+
+    /* footer */
+    footer {
+        padding-top: 120px;
+    }
+    footer .about h1,
+    footer .services h1,
+    footer .socialite h1 {
+        font-size: 36px;
+    }
+    footer .about a,
+    footer .services a,
+    footer .socialite p {
+        font-size: 22px;
+    }
+    footer .socialite .icon i {
+        font-size: 36px;
+    }
+    footer .socialite form input[name="feedback"] {
+        width: 214px;
+    }
+}
+
+/* > PC low resolution */
+@media (min-width: 1024px) and (max-width: 1239px) {
+    header .logo {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .section-introduction .content-image img {
+        height: 70%;
+    }
+
+    .section-veterinary .content-image .first-square,
+    .section-veterinary-rotate .content-image .first-square {
+        width: 200px;
+        height: 150px;
+        bottom: 170px;
+    }
+
+    .section-veterinary-rotate .content-image .second-square,
+    .section-veterinary .content-image .second-square,
+    .section-veterinary-rotate .content-image .third-square,
+    .section-veterinary-rotate .content-image .third-square img,
+    .section-veterinary .content-image .third-square,
+    .section-veterinary .content-image .third-square img,
+    .section-veterinary-rotate .content-image .forth-square,
+    .section-veterinary .content-image .forth-square {
+        width: 406px;
+        height: 380px;
+    }
+
+    .section-veterinary-rotate .content-image .circle,
+    .section-veterinary .content-image .circle {
+        width: 54px;
+        height: 54px;
+    }
+
+    .section-veterinary .content-image .first-square {
+        left: -20px;
+    }
+
+    .section-veterinary-rotate .content-image .first-square {
+        right: 20px;
+    }
+
+    .section-vaccination {
+        height: 900px;
+    }
+    .section-recent-post {
+        height: 980px;
+    }
+    .section-veterinar,
+    .section-doctor-infor,
+    .section-sell-dog {
+        height: 840px;
+    }
+}
